@@ -153,15 +153,6 @@ const App: React.FC = () => {
              <div className="text-[#86efac] text-2xl sm:text-3xl tracking-[0.3em] animate-pulse font-bold text-strong-glow mb-2">
                 LOADING...
              </div>
-             <div className="w-32 h-1 bg-[#86efac]/30 mt-4 overflow-hidden">
-                <div className="h-full bg-[#86efac] w-full animate-[loading_1s_infinite]" style={{ animationTimingFunction: 'steps(8, end)' }}></div>
-             </div>
-             <style>{`
-               @keyframes loading {
-                 0% { transform: translateX(-100%); }
-                 100% { transform: translateX(100%); }
-               }
-             `}</style>
           </div>
         )}
 

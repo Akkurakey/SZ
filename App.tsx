@@ -115,12 +115,12 @@ const App: React.FC = () => {
             ${stage === 'input' ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'}
           `}
         >
-          <h1 className="text-3xl sm:text-4xl md:text-5xl mb-4 sm:mb-8 text-center tracking-widest text-strong-glow animate-text-flicker">
-            // SAFE ZONE
+          <h1 className="text-3xl sm:text-4xl md:text-5xl mb-4 sm:mb-8 text-center tracking-widest text-strong-glow animate-rgb-split">
+            // SAFE ZONE PROTOCOL
           </h1>
           
           <div className="mb-4 sm:mb-6 opacity-90 text-base sm:text-lg md:text-xl font-light text-glow tracking-wider">
-            INPUT 3 MEMORIES
+            INPUT 3 MEMORIES (KEYWORDS)
           </div>
           
           <div className="flex flex-wrap justify-center gap-3 sm:gap-4 mb-6 sm:mb-10 w-full max-w-lg px-2">
@@ -141,7 +141,7 @@ const App: React.FC = () => {
 
           <button 
             onClick={startProtocol}
-            className="px-6 sm:px-8 py-2 sm:py-3 border-2 border-[#86efac] text-[#86efac] text-lg sm:text-xl md:text-2xl tracking-widest hover:bg-[#86efac] hover:text-black hover:shadow-[0_0_20px_#86efac] transition-all duration-300 active:scale-95 text-glow"
+            className="px-6 sm:px-8 py-2 sm:py-3 border-2 border-[#86efac] text-[#86efac] text-lg sm:text-xl md:text-2xl tracking-widest hover:bg-[#86efac] hover:text-black hover:shadow-[0_0_20px_#86efac] transition-all duration-300 active:scale-95 text-glow animate-text-flicker"
           >
             INITIALIZE
           </button>

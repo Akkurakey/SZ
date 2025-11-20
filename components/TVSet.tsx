@@ -56,7 +56,7 @@ export const TVSet: React.FC<TVSetProps> = ({ children, isProcessing, onReset, s
         mt-4 sm:mt-6 text-[#86efac] text-opacity-70 text-[10px] sm:text-xs md:text-sm tracking-widest transition-opacity duration-500 font-light text-center w-full px-4
         ${showReset ? 'opacity-100' : 'opacity-0'}
       `}>
-        [ RIGHT CLICK / LONG PRESS TO SAVE MEMORY ]
+        [ RIGHT CLICK / LONG PRESS TO SAVE IMAGE ]
       </div>
     </div>
   );

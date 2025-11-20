@@ -26,7 +26,7 @@ export const TVSet: React.FC<TVSetProps> = ({ children, isProcessing, onReset, s
       <div className="relative w-full aspect-[4/3] bg-[#1a1a1a] p-3 sm:p-6 md:p-8 rounded-[20px] sm:rounded-[30px] border-4 sm:border-8 border-[#333] shadow-[inset_0_0_20px_#000,0_0_50px_rgba(0,0,0,0.8)]">
         
         {/* Screen Container */}
-        <div className="relative w-full h-full bg-[#050505] rounded-[20px] sm:rounded-[40px] overflow-hidden border-2 sm:border-4 border-[#111] shadow-[inset_0_0_20px_rgba(0,0,0,1)]">
+        <div className="relative w-full h-full bg-[#050505] rounded-[30px] sm:rounded-[40px] overflow-hidden border-2 sm:border-4 border-[#111] shadow-[inset_0_0_20px_rgba(0,0,0,1)]">
            <CRTEffects />
            <NoiseOverlay active={isProcessing} />
            

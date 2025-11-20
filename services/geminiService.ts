@@ -41,7 +41,7 @@ export const generateDreamText = async (keywords: string[]): Promise<string> => 
 
 export const constructImageURL = (keywords: string[]): string => {
   const styleKeywords = "dreamcore, weirdcore, liminal space, soft lighting, grain, low fidelity, 90s aesthetic, ethereal, vhs quality";
-  const prompt = `${keywords.join(', ')}, surreal version of ${keywords.join(', ')}, ${styleKeywords}`;
+  const prompt = `surreal version of ${keywords.join(', ')}, ${styleKeywords}`;
   const seed = Math.floor(Math.random() * 99999);
   // Using Pollinations as it matches the user's original intent and is open for this aesthetic
   return `https://image.pollinations.ai/prompt/${encodeURIComponent(prompt)}?width=800&height=600&nologo=true&seed=${seed}`;
